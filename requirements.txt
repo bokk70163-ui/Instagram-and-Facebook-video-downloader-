@@ -1,4 +1,5 @@
-pyTelegramBotAPI
+urllib3
+requests
+telegram
 Flask
 gunicorn
-yt-dlp
