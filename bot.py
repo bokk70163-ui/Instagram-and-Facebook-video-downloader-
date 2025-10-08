@@ -240,7 +240,4 @@ def webhook():
 
 if __name__ == "__main__":
     print("Bot is running locally...")
-    # For local testing, you need to create 'BOT_TOKEN' and 'LOG_CHANNEL_ID' environment variables
-    bot.remove_webhook()
-    bot.polling()
 
