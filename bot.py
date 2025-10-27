@@ -40,7 +40,7 @@ def handle_command(message):
             [{"text": "🗑 Delete Email", "callback_data": "delete"}],
             [{"text": "📊 Statistics", "callback_data": "statistics"}]
         ]
-        send_message(chat_id, "👋 Welcome to *Temp Mail Bot by Code Predator*\n\nChoose an option:", buttons)
+        send_message(chat_id, "Welcome to *Mail Bot By Pro*\n\nChoose an option:", buttons)
 
 def handle_callback(callback):
     chat_id = callback["message"]["chat"]["id"]
